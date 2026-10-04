@@ -7,7 +7,7 @@ export class PayBillsPage {
         this.paymentBillSection = page.getByTestId('billPayForm')
     }
     async validatePayBillsPage() {
-        await this.page.waitForURL('**/banking/bill-payments')
+        await this.page.waitForURL('https://www.testerrank.com/banking/bill-payments')
     }
 
     async clickBillType(billType){
@@ -64,6 +64,7 @@ export class PayBillsPage {
     
         const splitTransactionID = successMessage.split('Ref: ');   
         const transactionID = splitTransactionID[1]
+        console.log('Transaction ID is: '+ transactionID)
 
         const checkTransactionDetails = 
         this.page.getByTestId('bill-payments-page').locator('[class^="mt"]').locator('[data-testid^="billCard"]').getByText(transactionID)

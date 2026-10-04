@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]
+  - contentinfo [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - heading "Learn" [level=3] [ref=e8]
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "45-Day Plan" [ref=e11] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e12]:
+              - link "Java" [ref=e13] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e14]:
+              - link "Selenium" [ref=e15] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e16]:
+              - link "TestNG" [ref=e17] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e18]:
+              - link "API Testing" [ref=e19] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e20]:
+              - link "Playwright" [ref=e21] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e22]:
+              - link "Performance" [ref=e23] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e24]:
+              - link "Database" [ref=e25] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e26]:
+          - heading "Practice" [level=3] [ref=e27]
+          - list [ref=e28]:
+            - listitem [ref=e29]:
+              - link "Banking App" [ref=e30] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e31]:
+              - link "Shopping Store" [ref=e32] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e33]:
+              - link "Insurance" [ref=e34] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e35]:
+              - link "Practice Topics" [ref=e36] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e37]:
+              - link "Bug Tracker" [ref=e38] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e39]:
+          - heading "Prepare" [level=3] [ref=e40]
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - link "Interview Questions" [ref=e43] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e44]:
+              - link "XPath Cheatsheet" [ref=e45] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e46]:
+              - link "Selenium Guide" [ref=e47] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e48]:
+              - link "Playwright Guide" [ref=e49] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e50]:
+              - link "API Testing Guide" [ref=e51] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e52]:
+              - link "Locator Cheatsheet" [ref=e53] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e54]:
+          - heading "Company" [level=3] [ref=e55]
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "About" [ref=e58] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e59]:
+              - link "Contact" [ref=e60] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e61]:
+              - link "Privacy" [ref=e62] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e63]:
+              - link "Terms" [ref=e64] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e65]:
+        - generic [ref=e66]: TesterRank
+        - generic [ref=e67]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list

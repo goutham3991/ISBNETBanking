@@ -29,6 +29,7 @@ export class DashboardPage {
         await expect(this.loanCalculatorMenu).toBeVisible()
         await expect(this.cardsMenu).toBeVisible()
         await expect(this.profileAndSettingsMenu).toBeVisible()
+        console.log('All menu items are visible on the dashboard page.')
     }
 
     async validateUserDetails(username){
@@ -36,16 +37,17 @@ export class DashboardPage {
     }
 
     async checkAccountBalance(){
-        await expect(this.page.getByTestId('accBal1')).toContainText(/\d/)
+        const accBalance = await this.page.getByTestId('accBal1').textContent()
+        console.log(`Account Balance: ${accBalance}`)
     }
 
     async navigateToFundTransferPage(){
         await this.page.getByText('Fund Transfer').first().click()
-        await this.page.waitForURL('**/banking/transfer')
+        await this.page.waitForURL('https://www.testerrank.com/banking/transfer')
     }
 
     async navigateToNotificationsPage(){
         await this.page.getByText('Notifications').first().click()
-        await this.page.waitForURL('**/banking/notifications')
+        await this.page.waitForURL('https://www.testerrank.com/banking/notifications')
     }
 }

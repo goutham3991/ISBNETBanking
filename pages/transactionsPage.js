@@ -15,7 +15,7 @@ export class TransactionPage{
     }
 
     async validateTransactionPage(){
-        await this.page.waitForURL('**/banking/transactions')
+        await this.page.waitForURL('https://www.testerrank.com/banking/transactions')
     }
 
     async clickOnApplyFilter(){

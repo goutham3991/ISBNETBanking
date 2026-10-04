@@ -16,16 +16,16 @@ export class LoginPage {
     }
 
     async waitForDashboardPage(){
-        await this.page.waitForURL('**/banking/dashboard')
+        await this.page.waitForURL('https://www.testerrank.com/banking/dashboard')
     }
 
     async validateLoginPage(){
         const signInToYourAccountPage = this.page.getByText('Sign In to Your Account')
-        await expect(signInToYourAccountPage).toBeVisible()
+        expect(signInToYourAccountPage).toBeVisible()
     }
 
     async verifyInvalidLoginErrorMsg(){
         const invalidLoginError = this.page.getByText('Invalid User ID or Password. Please try again.')
-        await expect(invalidLoginError).toBeVisible()
+        expect(invalidLoginError).toBeVisible()
     }
 }

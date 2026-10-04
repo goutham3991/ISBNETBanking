@@ -1,0 +1,320 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - complementary [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: ISB
+          - generic [ref=e9]: NetBanking
+        - generic [ref=e11]:
+          - generic [ref=e12]: RS
+          - generic [ref=e13]:
+            - generic [ref=e14]: Rahul Sharma
+            - generic [ref=e15]: "A/C: ****7890"
+        - navigation [ref=e16]:
+          - link "Dashboard" [ref=e17] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e18]
+            - generic [ref=e20]: Dashboard
+          - link "Notifications" [ref=e21] [cursor=pointer]:
+            - /url: /banking/notifications
+            - img [ref=e22]
+            - generic [ref=e24]: Notifications
+          - link "Accounts" [ref=e25] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e26]
+            - generic [ref=e28]: Accounts
+          - link "Fund Transfer" [ref=e29] [cursor=pointer]:
+            - /url: /banking/transfer
+            - img [ref=e30]
+            - generic [ref=e32]: Fund Transfer
+          - link "Transactions" [ref=e33] [cursor=pointer]:
+            - /url: /banking/transactions
+            - img [ref=e34]
+            - generic [ref=e36]: Transactions
+          - link "Beneficiaries" [ref=e37] [cursor=pointer]:
+            - /url: /banking/beneficiary
+            - img [ref=e38]
+            - generic [ref=e40]: Beneficiaries
+          - link "Bill Payments" [ref=e41] [cursor=pointer]:
+            - /url: /banking/bill-payments
+            - img [ref=e42]
+            - generic [ref=e44]: Bill Payments
+          - link "Fixed Deposits" [ref=e45] [cursor=pointer]:
+            - /url: /banking/fixed-deposit
+            - img [ref=e46]
+            - generic [ref=e48]: Fixed Deposits
+          - link "Loan Calculator" [ref=e49] [cursor=pointer]:
+            - /url: /banking/loan-calculator
+            - img [ref=e50]
+            - generic [ref=e52]: Loan Calculator
+          - link "Cards" [ref=e53] [cursor=pointer]:
+            - /url: /banking/cards
+            - img [ref=e54]
+            - generic [ref=e56]: Cards
+          - link "Profile & Settings" [ref=e57] [cursor=pointer]:
+            - /url: /banking/profile
+            - img [ref=e58]
+            - generic [ref=e61]: Profile & Settings
+        - button "Logout" [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e66]: Logout
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Welcome, Rahul" [level=1] [ref=e70]
+          - generic [ref=e71]:
+            - link "3" [ref=e72] [cursor=pointer]:
+              - /url: /banking/notifications
+              - img [ref=e73]
+              - generic [ref=e75]: "3"
+            - generic [ref=e76]: Sun, 27 Sept, 2026
+            - generic [ref=e77]: RS
+        - main [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Your Fixed Deposits" [level=2] [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: FD20250101001
+                  - generic [ref=e85]: Active
+                - paragraph [ref=e86]: ₹5,00,000
+                - generic [ref=e87]:
+                  - generic [ref=e88]: 6.75% p.a.
+                  - generic [ref=e89]: 2 Years
+                - generic [ref=e90]: 01-Jan-2025 → 01-Jan-2027
+                - generic [ref=e91]: "Maturity: ₹5,71,663.78"
+                - paragraph [ref=e94]: 87% elapsed
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: FD20240615002
+                  - generic [ref=e98]: Matured
+                - paragraph [ref=e99]: ₹2,50,000
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 6.5% p.a.
+                  - generic [ref=e102]: 1 Year
+                - generic [ref=e103]: 15-Jun-2024 → 15-Jun-2025
+                - generic [ref=e104]: "Maturity: ₹2,66,601.56"
+                - paragraph [ref=e107]: 100% elapsed
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: FD20250310003
+                  - generic [ref=e111]: Active
+                - paragraph [ref=e112]: ₹1,00,000
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 7% p.a.
+                  - generic [ref=e115]: 3 Years
+                - generic [ref=e116]: 10-Mar-2025 → 10-Mar-2028
+                - generic [ref=e117]: "Maturity: ₹1,23,143.64"
+                - paragraph [ref=e120]: 52% elapsed
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: FD20230820004
+                  - generic [ref=e124]: Active
+                - paragraph [ref=e125]: ₹3,00,000
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 7.25% p.a.
+                  - generic [ref=e128]: 5 Years
+                - generic [ref=e129]: 20-Aug-2023 → 20-Aug-2028
+                - generic [ref=e130]: "Maturity: ₹4,29,503.45"
+                - paragraph [ref=e133]: 62% elapsed
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: FD20240101005
+                  - generic [ref=e137]: Matured
+                - paragraph [ref=e138]: ₹75,000
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 5.5% p.a.
+                  - generic [ref=e141]: 6 Months
+                - generic [ref=e142]: 01-Jan-2024 → 01-Jul-2024
+                - generic [ref=e143]: "Maturity: ₹77,062.5"
+                - paragraph [ref=e146]: 100% elapsed
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e149]: FD20260101006
+                  - generic [ref=e150]: Active
+                - paragraph [ref=e151]: ₹10,00,000
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 7% p.a.
+                  - generic [ref=e154]: 3 Years
+                - generic [ref=e155]: 01-Jan-2026 → 01-Jan-2029
+                - generic [ref=e156]: "Maturity: ₹12,31,436.4"
+                - paragraph [ref=e159]: 25% elapsed
+            - generic [ref=e160]:
+              - heading "Open New Fixed Deposit" [level=3] [ref=e161]
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: Amount (min ₹10,000)
+                  - spinbutton "Amount (min ₹10,000)" [ref=e165]: "10000"
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Tenure
+                  - generic [ref=e168]:
+                    - button "6 Months" [active] [ref=e169] [cursor=pointer]
+                    - button "1 Year" [ref=e170] [cursor=pointer]
+                    - button "2 Years" [ref=e171] [cursor=pointer]
+                    - button "3 Years" [ref=e172] [cursor=pointer]
+                    - button "5 Years" [ref=e173] [cursor=pointer]
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Interest Rate
+                  - generic [ref=e312]: 5.5% p.a.
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Maturity Amount
+                  - generic [ref=e316]: ₹10,276.89
+                - button "Open Fixed Deposit" [ref=e174] [cursor=pointer]
+            - generic [ref=e175]:
+              - heading "FD Summary" [level=3] [ref=e176]
+              - table [ref=e179]:
+                - rowgroup [ref=e180]:
+                  - row "ID Amount Rate Tenure Start Maturity Status" [ref=e181]:
+                    - columnheader "ID" [ref=e182]
+                    - columnheader "Amount" [ref=e183]
+                    - columnheader "Rate" [ref=e184]
+                    - columnheader "Tenure" [ref=e185]
+                    - columnheader "Start" [ref=e186]
+                    - columnheader "Maturity" [ref=e187]
+                    - columnheader "Status" [ref=e188]
+                - rowgroup [ref=e189]:
+                  - row "FD20250101001 ₹5,00,000 6.75% 2 Years 01-Jan-2025 01-Jan-2027 Active" [ref=e190]:
+                    - cell "FD20250101001" [ref=e191]
+                    - cell "₹5,00,000" [ref=e192]
+                    - cell "6.75%" [ref=e193]
+                    - cell "2 Years" [ref=e194]
+                    - cell "01-Jan-2025" [ref=e195]
+                    - cell "01-Jan-2027" [ref=e196]
+                    - cell "Active" [ref=e197]:
+                      - generic [ref=e198]: Active
+                  - row "FD20240615002 ₹2,50,000 6.5% 1 Year 15-Jun-2024 15-Jun-2025 Matured" [ref=e199]:
+                    - cell "FD20240615002" [ref=e200]
+                    - cell "₹2,50,000" [ref=e201]
+                    - cell "6.5%" [ref=e202]
+                    - cell "1 Year" [ref=e203]
+                    - cell "15-Jun-2024" [ref=e204]
+                    - cell "15-Jun-2025" [ref=e205]
+                    - cell "Matured" [ref=e206]:
+                      - generic [ref=e207]: Matured
+                  - row "FD20250310003 ₹1,00,000 7% 3 Years 10-Mar-2025 10-Mar-2028 Active" [ref=e208]:
+                    - cell "FD20250310003" [ref=e209]
+                    - cell "₹1,00,000" [ref=e210]
+                    - cell "7%" [ref=e211]
+                    - cell "3 Years" [ref=e212]
+                    - cell "10-Mar-2025" [ref=e213]
+                    - cell "10-Mar-2028" [ref=e214]
+                    - cell "Active" [ref=e215]:
+                      - generic [ref=e216]: Active
+                  - row "FD20230820004 ₹3,00,000 7.25% 5 Years 20-Aug-2023 20-Aug-2028 Active" [ref=e217]:
+                    - cell "FD20230820004" [ref=e218]
+                    - cell "₹3,00,000" [ref=e219]
+                    - cell "7.25%" [ref=e220]
+                    - cell "5 Years" [ref=e221]
+                    - cell "20-Aug-2023" [ref=e222]
+                    - cell "20-Aug-2028" [ref=e223]
+                    - cell "Active" [ref=e224]:
+                      - generic [ref=e225]: Active
+                  - row "FD20240101005 ₹75,000 5.5% 6 Months 01-Jan-2024 01-Jul-2024 Matured" [ref=e226]:
+                    - cell "FD20240101005" [ref=e227]
+                    - cell "₹75,000" [ref=e228]
+                    - cell "5.5%" [ref=e229]
+                    - cell "6 Months" [ref=e230]
+                    - cell "01-Jan-2024" [ref=e231]
+                    - cell "01-Jul-2024" [ref=e232]
+                    - cell "Matured" [ref=e233]:
+                      - generic [ref=e234]: Matured
+                  - row "FD20260101006 ₹10,00,000 7% 3 Years 01-Jan-2026 01-Jan-2029 Active" [ref=e235]:
+                    - cell "FD20260101006" [ref=e236]
+                    - cell "₹10,00,000" [ref=e237]
+                    - cell "7%" [ref=e238]
+                    - cell "3 Years" [ref=e239]
+                    - cell "01-Jan-2026" [ref=e240]
+                    - cell "01-Jan-2029" [ref=e241]
+                    - cell "Active" [ref=e242]:
+                      - generic [ref=e243]: Active
+  - contentinfo [ref=e244]:
+    - generic [ref=e245]:
+      - generic [ref=e246]:
+        - generic [ref=e247]:
+          - heading "Learn" [level=3] [ref=e248]
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "45-Day Plan" [ref=e251] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e252]:
+              - link "Java" [ref=e253] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e254]:
+              - link "Selenium" [ref=e255] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e256]:
+              - link "TestNG" [ref=e257] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e258]:
+              - link "API Testing" [ref=e259] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e260]:
+              - link "Playwright" [ref=e261] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e262]:
+              - link "Performance" [ref=e263] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e264]:
+              - link "Database" [ref=e265] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e266]:
+          - heading "Practice" [level=3] [ref=e267]
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - link "Banking App" [ref=e270] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e271]:
+              - link "Shopping Store" [ref=e272] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e273]:
+              - link "Insurance" [ref=e274] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e275]:
+              - link "Practice Topics" [ref=e276] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e277]:
+              - link "Bug Tracker" [ref=e278] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e279]:
+          - heading "Prepare" [level=3] [ref=e280]
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "Interview Questions" [ref=e283] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e284]:
+              - link "XPath Cheatsheet" [ref=e285] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e286]:
+              - link "Selenium Guide" [ref=e287] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e288]:
+              - link "Playwright Guide" [ref=e289] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e290]:
+              - link "API Testing Guide" [ref=e291] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e292]:
+              - link "Locator Cheatsheet" [ref=e293] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e294]:
+          - heading "Company" [level=3] [ref=e295]
+          - list [ref=e296]:
+            - listitem [ref=e297]:
+              - link "About" [ref=e298] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e299]:
+              - link "Contact" [ref=e300] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e301]:
+              - link "Privacy" [ref=e302] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e303]:
+              - link "Terms" [ref=e304] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e305]:
+        - generic [ref=e306]: TesterRank
+        - generic [ref=e307]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e308]

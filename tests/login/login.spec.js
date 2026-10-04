@@ -1,5 +1,5 @@
-import {test} from '../../fixtures/pageFixture'
-import { validUser } from '../../test-data/credentials'
+import {test,expect} from '../../fixtures/pageFixture'
+import loginData from '../../test-data/login.json'
 
 test.describe('Login - Authentication',()=>{
     test.beforeEach('Navigate to the login page',async({page,loginPage})=>{
@@ -7,10 +7,10 @@ test.describe('Login - Authentication',()=>{
         await loginPage.validateLoginPage()
     })
     test('Login TC001 - Sign in with valid credentials',{tag: '@smoke'},async({dashboardPage,loginPage})=>{
-        await loginPage.login(validUser.email,validUser.password)
+        await loginPage.login(loginData.validUser.email,loginData.validUser.password)
         await loginPage.waitForDashboardPage()
         await dashboardPage.verifyMenuItems()
-        await dashboardPage.validateUserDetails(validUser.username)
+        await dashboardPage.validateUserDetails(loginData.validUser.username)
         await dashboardPage.checkAccountBalance()
     })
 })
