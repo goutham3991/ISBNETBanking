@@ -553,3 +553,14 @@ QA Lead | Senior QA Automation Engineer
 ## 🔗 Repository
 
 [ISBNETBanking – GitHub](https://github.com/goutham3991/ISBNETBanking)
+---
+
+## ⚙️ Configuration
+
+Copy `.env.example` to `.env` and fill in the values (never commit `.env`). In GitHub Actions, set
+`VALID_USER_EMAIL`, `VALID_USER_PASSWORD` and `VALID_USER_NAME` as repository secrets and, optionally, `BASE_URL` as a repository variable.
+
+```bash
+npm run lint      # ESLint with eslint-plugin-playwright
+npm run smoke     # @smoke tests
+```
