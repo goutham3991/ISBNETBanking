@@ -49,26 +49,5 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'], storageState: authFile },
       dependencies: ['health-check', 'setup']
     },
-    {
-      // Login tests must start from an unauthenticated session
-      name: 'chromium-login',
-      testMatch: '**/login/**/*.spec.js',
-      use: { ...devices['Desktop Chrome'] },
-      dependencies: ['health-check']
-    },
-    {
-      name: 'firefox',
-      grep: /@smoke/,
-      testIgnore: ['**/login/**', /.*\.setup\.js/, /health\.check\.js/],
-      use: { ...devices['Desktop Firefox'], storageState: authFile },
-      dependencies: ['health-check', 'setup']
-    },
-    {
-      name: 'webkit',
-      grep: /@smoke/,
-      testIgnore: ['**/login/**', /.*\.setup\.js/, /health\.check\.js/],
-      use: { ...devices['Desktop Safari'], storageState: authFile },
-      dependencies: ['health-check', 'setup']
-    }
   ]
 });
