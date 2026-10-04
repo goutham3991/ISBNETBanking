@@ -24,7 +24,7 @@ export class FixedDepositPage {
     }
 
     async validateFixedDepositPage() {
-        await this.page.waitForURL('**/banking/fixed-deposit')
+        await this.page.waitForURL('https://www.testerrank.com/banking/fixed-deposit')
         await expect(this.pageRoot).toBeVisible()
     }
 

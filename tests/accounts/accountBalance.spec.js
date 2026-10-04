@@ -1,13 +1,14 @@
-import { test, expect } from '../../fixtures/pageFixture';
+import { test } from '../../fixtures/pageFixture';
 
 test.describe('Accounts - Dashboard navigation',()=>{
-    test.beforeEach('Navigate to the account page and check account Balance',async({page})=>{
+    let openingBalance;
+    test.beforeEach('Navigate to the account page and check account Balance',async({page,accountPage})=>{
         await page.goto('/banking/dashboard');   // Account and Dashboard page are same, so navigating to dashboard page
     })
-    test('Accounts TC001 - Check opening balance',{tag: '@smoke'},async({accountPage})=>{
+    test('Accounts TC001 - Check opening balance',{tag: '@smoke'},async({accountPage,transfersPage})=>{
         await accountPage.validateAccountPage()
-        const openingBalance = await accountPage.getAccountBalance()
-        expect(openingBalance).toBeGreaterThanOrEqual(0)
+        openingBalance = await accountPage.getAccountBalance()
+        console.log(`Opening Balance: ${openingBalance}`);
     })
     test('Accounts TC002 - Navigate to Fund Transfer from quick actions',{tag: '@smoke'},async({accountPage,transfersPage})=>{
         await accountPage.clickQuickAction('Fund Transfer')

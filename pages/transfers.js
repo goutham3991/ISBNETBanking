@@ -4,9 +4,9 @@ export class TransfersPage {
     constructor(page){
         this.page = page
         this.continueButton = page.getByRole('button', { name: 'Continue' })
-        this.addBeneficiaryLinkOption = page.getByTestId('addNewBene')
-        this.addBeneficiaryButton = page.getByTestId('addBeneficiaryBtn')
-        this.addBeneficiaryForm = page.getByTestId('addBeneModal')   
+        this.addBenefeciaryLinkOption = page.getByTestId('addNewBene')
+        this.addBenefeciaryButton = page.getByTestId('addBeneficiaryBtn')
+        this.addBenefeciaryForm = page.getByTestId('addBeneModal')   
         this.enterTransferDetailsHeading =  page.getByText('Enter Transfer Details')
         this.transferAmount = page.getByTestId('transferAmount')
         this.remarks = page.getByTestId('remarks')
@@ -25,10 +25,11 @@ export class TransfersPage {
     }
 
     async validateTransfersPage() {
-        await this.page.waitForURL('**/banking/transfer')
+        await this.page.waitForURL('https://www.testerrank.com/banking/transfer')
     }
 
     async selectTransactionType(transactionType) {
+        console.log('Transaction Type:', transactionType); // Debugging
         const transactionTypeLocator = this.page.getByTestId(`type-${transactionType}`);
         await transactionTypeLocator.click();
     }
@@ -37,33 +38,36 @@ export class TransfersPage {
         await this.continueButton.click()
     }
 
-    async clickAddBeneficiaryLink(){
-        await this.addBeneficiaryLinkOption.click()
+    async clickAddBenefeciaryLink(){
+        await this.addBenefeciaryLinkOption.click()
     }
 
     async validateBeneficiaryPage() {
-        await this.page.waitForURL('**/banking/beneficiary')
+        await this.page.waitForURL('https://www.testerrank.com/banking/beneficiary')
     }
 
     async clickAddBeneficiaryButton() {
-        await this.addBeneficiaryButton.click()
+        await this.addBenefeciaryButton.click()
     }
 
-    async verifyAddBeneficiaryFormVisible() {
-        await expect(this.addBeneficiaryForm).toBeVisible()
+    async verifyAddBenefeciaryFormVisible() {
+        await expect(this.addBenefeciaryForm).toBeVisible()
     }
 
     async fillAddBeneficiaryForm(accountHolderName, accountNumber, ifscCode, nickname) {
-        await this.addBeneficiaryForm.getByRole('textbox', { name: 'Name' }).first().fill(accountHolderName)
-        await this.addBeneficiaryForm.getByRole('textbox', { name: 'Account Number' }).first().fill(accountNumber)
-        await this.addBeneficiaryForm.getByRole('textbox', { name: 'Confirm Account No.' }).first().fill(accountNumber)
-        await this.addBeneficiaryForm.getByRole('textbox', { name: 'IFSC Code' }).first().fill(ifscCode)
-        await this.addBeneficiaryForm.getByRole('textbox', { name: 'Nickname' }).first().fill(nickname)
-        await this.addBeneficiaryForm.getByRole('button', { name: 'Add Beneficiary' }).click()
+        await this.addBenefeciaryForm.getByRole('textbox', { name: 'Name' }).first().fill(accountHolderName)
+        await this.addBenefeciaryForm.getByRole('textbox', { name: 'Account Number' }).first().fill(accountNumber)
+        await this.addBenefeciaryForm.getByRole('textbox', { name: 'Confirm Account No.' }).first().fill(accountNumber)
+        await this.addBenefeciaryForm.getByRole('textbox', { name: 'IFSC Code' }).first().fill(ifscCode)
+        await this.addBenefeciaryForm.getByRole('textbox', { name: 'Nickname' }).first().fill(nickname)
+        await this.addBenefeciaryForm.getByRole('button', { name: 'Add Beneficiary' }).click()
     }
 
     async verifySuccessMessage(expectedMessage) {
-        await expect(this.page.getByTestId('beneSuccessMsg')).toContainText(expectedMessage)
+        await this.page.getByTestId('beneSuccessMsg').textContent().then((text) => {
+            console.log('Success Message:', text);
+            expect(text).toContain(expectedMessage)
+        })
     }
 
     async deleteBeneficiary(accountHolderName) {
@@ -73,21 +77,20 @@ export class TransfersPage {
         await this.page.getByTestId('deleteConfirmModal').getByRole('button', { name: 'Delete' }).click()
     }
 
-    async selectBeneficiary(index = 0) {
+    async selectRandomBeneficiary() {
         const beneficiaries = this.page.locator('[data-testid^="bene-BEN"]');     
         const count = await beneficiaries.count();     
         if (count === 0) {
           throw new Error('No beneficiaries available');
         }      
-        if (index >= count) {
-          throw new Error(`Beneficiary index ${index} out of range (found ${count})`);
-        }
-        await beneficiaries.nth(index).click();
+        const randomIndex = Math.floor(Math.random() * count);      
+        await beneficiaries.nth(randomIndex).click();     
+        console.log(`Selected beneficiary index: ${randomIndex}`);
         await this.continueButton.click();
         await expect(this.enterTransferDetailsHeading).toBeVisible()
     }
 
-    async enterTransferDetails(amount,remarks){
+    async enterTransferDetials(amount,remarks){
         await this.transferAmount.fill(amount)
         await this.remarks.fill(remarks)
         await this.continueButton.click()

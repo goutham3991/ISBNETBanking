@@ -11,6 +11,7 @@ test.describe('Fund Transfer - Transfer workflows', () => {
         await page.goto('/banking/dashboard')
         await accountPage.validateAccountPage()
         openingBalance = await accountPage.getAccountBalance()
+        console.log(`Opening Balance: ${openingBalance}`)
         await dashboardPage.navigateToFundTransferPage()
     })
 
@@ -21,8 +22,8 @@ test.describe('Fund Transfer - Transfer workflows', () => {
 
         await transfersPage.selectTransactionType(beneficiaryData.transactionDetails.IMPStransactionType)
         await transfersPage.clickContinueButton()
-        await transfersPage.selectBeneficiary()
-        await transfersPage.enterTransferDetails(transferAmount, remarks)
+        await transfersPage.selectRandomBeneficiary()
+        await transfersPage.enterTransferDetials(transferAmount, remarks)
         await transfersPage.confirmTransactionDetails('IMPS', transferAmount, remarks)
         await transfersPage.clickOnContinueAndSendOTP()
         await transfersPage.enterOTP(otp)
@@ -42,8 +43,8 @@ test.describe('Fund Transfer - Transfer workflows', () => {
 
         await transfersPage.selectTransactionType(beneficiaryData.transactionDetails.NEFTtransactionType)
         await transfersPage.clickContinueButton()
-        await transfersPage.selectBeneficiary()
-        await transfersPage.enterTransferDetails(transferAmount, remarks)
+        await transfersPage.selectRandomBeneficiary()
+        await transfersPage.enterTransferDetials(transferAmount, remarks)
         await transfersPage.confirmTransactionDetails('NEFT', transferAmount, remarks)
         await transfersPage.clickOnContinueAndSendOTP()
         await transfersPage.enterOTP(otp)

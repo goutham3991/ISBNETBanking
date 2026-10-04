@@ -8,7 +8,7 @@ export class NotificationsPage {
     }
 
     async validateNotificationsPage(){
-        await this.page.waitForURL('**/banking/notifications')
+        await this.page.waitForURL('https://www.testerrank.com/banking/notifications')
     }
 
     async goToNotificationTabButton(tabName){
@@ -18,6 +18,11 @@ export class NotificationsPage {
 
     async verifyNotificationsListVisible(){
         const notifications =  await this.page.locator('[data-testid^="notification-NOTIF"]').count();
-        expect(notifications).toBeGreaterThanOrEqual(0);
+        if (notifications === 0) {
+            console.log('No notifications found for the selected tab.');
+        } else {
+            expect(notifications).toBeGreaterThan(0);
+            console.log(`Number of notifications found: ${notifications}`);
+        }     
     }
 }

@@ -1,0 +1,339 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - complementary [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: ISB
+          - generic [ref=e9]: NetBanking
+        - generic [ref=e11]:
+          - generic [ref=e12]: RS
+          - generic [ref=e13]:
+            - generic [ref=e14]: Rahul Sharma
+            - generic [ref=e15]: "A/C: ****7890"
+        - navigation [ref=e16]:
+          - link "Dashboard" [ref=e17] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e18]
+            - generic [ref=e20]: Dashboard
+          - link "Notifications" [ref=e21] [cursor=pointer]:
+            - /url: /banking/notifications
+            - img [ref=e22]
+            - generic [ref=e24]: Notifications
+          - link "Accounts" [ref=e25] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e26]
+            - generic [ref=e28]: Accounts
+          - link "Fund Transfer" [ref=e29] [cursor=pointer]:
+            - /url: /banking/transfer
+            - img [ref=e30]
+            - generic [ref=e32]: Fund Transfer
+          - link "Transactions" [ref=e33] [cursor=pointer]:
+            - /url: /banking/transactions
+            - img [ref=e34]
+            - generic [ref=e36]: Transactions
+          - link "Beneficiaries" [ref=e37] [cursor=pointer]:
+            - /url: /banking/beneficiary
+            - img [ref=e38]
+            - generic [ref=e40]: Beneficiaries
+          - link "Bill Payments" [ref=e41] [cursor=pointer]:
+            - /url: /banking/bill-payments
+            - img [ref=e42]
+            - generic [ref=e44]: Bill Payments
+          - link "Fixed Deposits" [ref=e45] [cursor=pointer]:
+            - /url: /banking/fixed-deposit
+            - img [ref=e46]
+            - generic [ref=e48]: Fixed Deposits
+          - link "Loan Calculator" [ref=e49] [cursor=pointer]:
+            - /url: /banking/loan-calculator
+            - img [ref=e50]
+            - generic [ref=e52]: Loan Calculator
+          - link "Cards" [ref=e53] [cursor=pointer]:
+            - /url: /banking/cards
+            - img [ref=e54]
+            - generic [ref=e56]: Cards
+          - link "Profile & Settings" [ref=e57] [cursor=pointer]:
+            - /url: /banking/profile
+            - img [ref=e58]
+            - generic [ref=e61]: Profile & Settings
+        - button "Logout" [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e66]: Logout
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Welcome, Rahul" [level=1] [ref=e70]
+          - generic [ref=e71]:
+            - link "3" [ref=e72] [cursor=pointer]:
+              - /url: /banking/notifications
+              - img [ref=e73]
+              - generic [ref=e75]: "3"
+            - generic [ref=e76]: Sun, 27 Sept, 2026
+            - generic [ref=e77]: RS
+        - main [ref=e78]:
+          - generic [ref=e79]:
+            - heading "EMI Calculator" [level=1] [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: Loan Amount
+                  - generic [ref=e85]: ₹1,00,00,000
+                - slider "Loan Amount" [ref=e86] [cursor=pointer]: "10000000"
+                - generic [ref=e87]:
+                  - generic [ref=e88]: 1,00,000
+                  - generic [ref=e89]: 1,00,00,000
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Interest Rate
+                  - generic [ref=e93]: 18%
+                - slider "Interest Rate" [ref=e94] [cursor=pointer]: "18"
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 6%
+                  - generic [ref=e97]: 18%
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Loan Tenure
+                  - generic [ref=e101]: 15 Years
+                - slider "Loan Tenure" [active] [ref=e102] [cursor=pointer]: "15"
+                - generic [ref=e103]:
+                  - generic [ref=e104]: 1 Year
+                  - generic [ref=e105]: 30 Years
+                - generic [ref=e106]:
+                  - button "Years" [ref=e107] [cursor=pointer]
+                  - button "Months" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: Monthly EMI
+            - paragraph [ref=e111]: ₹1,61,042
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - paragraph [ref=e114]: Total Interest
+                - paragraph [ref=e115]: ₹1,89,87,579
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: Total Amount
+                - paragraph [ref=e118]: ₹2,89,87,579
+              - generic [ref=e119]:
+                - paragraph [ref=e120]: Principal
+                - paragraph [ref=e121]: ₹1,00,00,000
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - heading "Payment Breakdown" [level=2] [ref=e124]
+              - generic [ref=e125]:
+                - img [ref=e126]
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Total
+                  - generic [ref=e131]: ₹2,89,87,579
+              - generic [ref=e132]:
+                - generic [ref=e135]: Principal (34.5%)
+                - generic [ref=e138]: Interest (65.5%)
+            - generic [ref=e139]:
+              - heading "Amortization Schedule" [level=2] [ref=e140]
+              - table [ref=e143]:
+                - rowgroup [ref=e144]:
+                  - row "Year Opening Balance EMI Paid Interest Principal Closing Balance" [ref=e145]:
+                    - columnheader "Year" [ref=e146]
+                    - columnheader "Opening Balance" [ref=e147]
+                    - columnheader "EMI Paid" [ref=e148]
+                    - columnheader "Interest" [ref=e149]
+                    - columnheader "Principal" [ref=e150]
+                    - columnheader "Closing Balance" [ref=e151]
+                - rowgroup [ref=e152]:
+                  - row "1 ₹1,00,00,000 ₹19,32,505 ₹17,88,503 ₹1,44,002 ₹98,55,998" [ref=e772]:
+                    - cell "1" [ref=e154]
+                    - cell "₹1,00,00,000" [ref=e508]
+                    - cell "₹19,32,505" [ref=e773]
+                    - cell "₹17,88,503" [ref=e774]
+                    - cell "₹1,44,002" [ref=e775]
+                    - cell "₹98,55,998" [ref=e776]
+                  - row "2 ₹98,55,998 ₹19,32,505 ₹17,60,333 ₹1,72,172 ₹96,83,826" [ref=e777]:
+                    - cell "2" [ref=e161]
+                    - cell "₹98,55,998" [ref=e778]
+                    - cell "₹19,32,505" [ref=e779]
+                    - cell "₹17,60,333" [ref=e780]
+                    - cell "₹1,72,172" [ref=e781]
+                    - cell "₹96,83,826" [ref=e782]
+                  - row "3 ₹96,83,826 ₹19,32,505 ₹17,26,653 ₹2,05,852 ₹94,77,974" [ref=e783]:
+                    - cell "3" [ref=e168]
+                    - cell "₹96,83,826" [ref=e784]
+                    - cell "₹19,32,505" [ref=e785]
+                    - cell "₹17,26,653" [ref=e786]
+                    - cell "₹2,05,852" [ref=e787]
+                    - cell "₹94,77,974" [ref=e788]
+                  - row "4 ₹94,77,974 ₹19,32,505 ₹16,86,385 ₹2,46,120 ₹92,31,854" [ref=e789]:
+                    - cell "4" [ref=e175]
+                    - cell "₹94,77,974" [ref=e790]
+                    - cell "₹19,32,505" [ref=e791]
+                    - cell "₹16,86,385" [ref=e792]
+                    - cell "₹2,46,120" [ref=e793]
+                    - cell "₹92,31,854" [ref=e794]
+                  - row "5 ₹92,31,854 ₹19,32,505 ₹16,38,239 ₹2,94,266 ₹89,37,588" [ref=e795]:
+                    - cell "5" [ref=e182]
+                    - cell "₹92,31,854" [ref=e796]
+                    - cell "₹19,32,505" [ref=e797]
+                    - cell "₹16,38,239" [ref=e798]
+                    - cell "₹2,94,266" [ref=e799]
+                    - cell "₹89,37,588" [ref=e800]
+                  - row "6 ₹89,37,588 ₹19,32,505 ₹15,80,676 ₹3,51,830 ₹85,85,758" [ref=e801]:
+                    - cell "6" [ref=e189]
+                    - cell "₹89,37,588" [ref=e802]
+                    - cell "₹19,32,505" [ref=e803]
+                    - cell "₹15,80,676" [ref=e804]
+                    - cell "₹3,51,830" [ref=e805]
+                    - cell "₹85,85,758" [ref=e806]
+                  - row "7 ₹85,85,758 ₹19,32,505 ₹15,11,851 ₹4,20,654 ₹81,65,104" [ref=e807]:
+                    - cell "7" [ref=e196]
+                    - cell "₹85,85,758" [ref=e808]
+                    - cell "₹19,32,505" [ref=e809]
+                    - cell "₹15,11,851" [ref=e810]
+                    - cell "₹4,20,654" [ref=e811]
+                    - cell "₹81,65,104" [ref=e812]
+                  - row "8 ₹81,65,104 ₹19,32,505 ₹14,29,564 ₹5,02,941 ₹76,62,163" [ref=e813]:
+                    - cell "8" [ref=e203]
+                    - cell "₹81,65,104" [ref=e814]
+                    - cell "₹19,32,505" [ref=e815]
+                    - cell "₹14,29,564" [ref=e816]
+                    - cell "₹5,02,941" [ref=e817]
+                    - cell "₹76,62,163" [ref=e818]
+                  - row "9 ₹76,62,163 ₹19,32,505 ₹13,31,179 ₹6,01,326 ₹70,60,837" [ref=e819]:
+                    - cell "9" [ref=e210]
+                    - cell "₹76,62,163" [ref=e820]
+                    - cell "₹19,32,505" [ref=e821]
+                    - cell "₹13,31,179" [ref=e822]
+                    - cell "₹6,01,326" [ref=e823]
+                    - cell "₹70,60,837" [ref=e824]
+                  - row "10 ₹70,60,837 ₹19,32,505 ₹12,13,549 ₹7,18,956 ₹63,41,881" [ref=e825]:
+                    - cell "10" [ref=e217]
+                    - cell "₹70,60,837" [ref=e826]
+                    - cell "₹19,32,505" [ref=e827]
+                    - cell "₹12,13,549" [ref=e828]
+                    - cell "₹7,18,956" [ref=e829]
+                    - cell "₹63,41,881" [ref=e830]
+                  - row "11 ₹63,41,881 ₹19,32,505 ₹10,72,908 ₹8,59,597 ₹54,82,284" [ref=e831]:
+                    - cell "11" [ref=e224]
+                    - cell "₹63,41,881" [ref=e832]
+                    - cell "₹19,32,505" [ref=e833]
+                    - cell "₹10,72,908" [ref=e834]
+                    - cell "₹8,59,597" [ref=e835]
+                    - cell "₹54,82,284" [ref=e836]
+                  - row "12 ₹54,82,284 ₹19,32,505 ₹9,04,756 ₹10,27,750 ₹44,54,535" [ref=e837]:
+                    - cell "12" [ref=e231]
+                    - cell "₹54,82,284" [ref=e838]
+                    - cell "₹19,32,505" [ref=e839]
+                    - cell "₹9,04,756" [ref=e840]
+                    - cell "₹10,27,750" [ref=e841]
+                    - cell "₹44,54,535" [ref=e842]
+                  - row "13 ₹44,54,535 ₹19,32,505 ₹7,03,709 ₹12,28,796 ₹32,25,739" [ref=e843]:
+                    - cell "13" [ref=e238]
+                    - cell "₹44,54,535" [ref=e844]
+                    - cell "₹19,32,505" [ref=e845]
+                    - cell "₹7,03,709" [ref=e846]
+                    - cell "₹12,28,796" [ref=e847]
+                    - cell "₹32,25,739" [ref=e848]
+                  - row "14 ₹32,25,739 ₹19,32,505 ₹4,63,334 ₹14,69,171 ₹17,56,568" [ref=e849]:
+                    - cell "14" [ref=e245]
+                    - cell "₹32,25,739" [ref=e850]
+                    - cell "₹19,32,505" [ref=e851]
+                    - cell "₹4,63,334" [ref=e852]
+                    - cell "₹14,69,171" [ref=e853]
+                    - cell "₹17,56,568" [ref=e854]
+                  - row "15 ₹17,56,568 ₹19,32,505 ₹1,75,938 ₹17,56,568 ₹0" [ref=e855]:
+                    - cell "15" [ref=e252]
+                    - cell "₹17,56,568" [ref=e856]
+                    - cell "₹19,32,505" [ref=e857]
+                    - cell "₹1,75,938" [ref=e858]
+                    - cell "₹17,56,568" [ref=e859]
+                    - cell "₹0" [ref=e257]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - heading "Ready to apply?" [level=2] [ref=e261]
+              - paragraph [ref=e262]: Get your loan approved in just a few steps
+            - button "Apply for Loan" [ref=e263] [cursor=pointer]
+  - contentinfo [ref=e264]:
+    - generic [ref=e265]:
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - heading "Learn" [level=3] [ref=e268]
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - link "45-Day Plan" [ref=e271] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e272]:
+              - link "Java" [ref=e273] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e274]:
+              - link "Selenium" [ref=e275] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e276]:
+              - link "TestNG" [ref=e277] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e278]:
+              - link "API Testing" [ref=e279] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e280]:
+              - link "Playwright" [ref=e281] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e282]:
+              - link "Performance" [ref=e283] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e284]:
+              - link "Database" [ref=e285] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e286]:
+          - heading "Practice" [level=3] [ref=e287]
+          - list [ref=e288]:
+            - listitem [ref=e289]:
+              - link "Banking App" [ref=e290] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e291]:
+              - link "Shopping Store" [ref=e292] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e293]:
+              - link "Insurance" [ref=e294] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e295]:
+              - link "Practice Topics" [ref=e296] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e297]:
+              - link "Bug Tracker" [ref=e298] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e299]:
+          - heading "Prepare" [level=3] [ref=e300]
+          - list [ref=e301]:
+            - listitem [ref=e302]:
+              - link "Interview Questions" [ref=e303] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e304]:
+              - link "XPath Cheatsheet" [ref=e305] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e306]:
+              - link "Selenium Guide" [ref=e307] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e308]:
+              - link "Playwright Guide" [ref=e309] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e310]:
+              - link "API Testing Guide" [ref=e311] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e312]:
+              - link "Locator Cheatsheet" [ref=e313] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e314]:
+          - heading "Company" [level=3] [ref=e315]
+          - list [ref=e316]:
+            - listitem [ref=e317]:
+              - link "About" [ref=e318] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e319]:
+              - link "Contact" [ref=e320] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e321]:
+              - link "Privacy" [ref=e322] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e323]:
+              - link "Terms" [ref=e324] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e325]:
+        - generic [ref=e326]: TesterRank
+        - generic [ref=e327]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e328]

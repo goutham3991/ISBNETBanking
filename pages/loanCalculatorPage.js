@@ -1,3 +1,4 @@
+import { expect } from '@playwright/test'
 
 export class LoanCalculatorPage {
     constructor(page){
@@ -6,6 +7,6 @@ export class LoanCalculatorPage {
     }
 
     async validateLoanCalculatorPage(){
-        await this.page.waitForURL('**/banking/loan-calculator')
+        await this.page.waitForURL('https://www.testerrank.com/banking/loan-calculator')
     }
 }

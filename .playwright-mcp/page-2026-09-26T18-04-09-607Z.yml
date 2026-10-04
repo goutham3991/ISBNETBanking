@@ -1,0 +1,276 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - complementary [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: ISB
+          - generic [ref=e9]: NetBanking
+        - generic [ref=e11]:
+          - generic [ref=e12]: RS
+          - generic [ref=e13]:
+            - generic [ref=e14]: Rahul Sharma
+            - generic [ref=e15]: "A/C: ****7890"
+        - navigation [ref=e16]:
+          - link "Dashboard" [ref=e17] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e18]
+            - generic [ref=e20]: Dashboard
+          - link "Notifications" [ref=e21] [cursor=pointer]:
+            - /url: /banking/notifications
+            - img [ref=e22]
+            - generic [ref=e24]: Notifications
+          - link "Accounts" [ref=e25] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e26]
+            - generic [ref=e28]: Accounts
+          - link "Fund Transfer" [ref=e29] [cursor=pointer]:
+            - /url: /banking/transfer
+            - img [ref=e30]
+            - generic [ref=e32]: Fund Transfer
+          - link "Transactions" [ref=e33] [cursor=pointer]:
+            - /url: /banking/transactions
+            - img [ref=e34]
+            - generic [ref=e36]: Transactions
+          - link "Beneficiaries" [ref=e37] [cursor=pointer]:
+            - /url: /banking/beneficiary
+            - img [ref=e38]
+            - generic [ref=e40]: Beneficiaries
+          - link "Bill Payments" [ref=e41] [cursor=pointer]:
+            - /url: /banking/bill-payments
+            - img [ref=e42]
+            - generic [ref=e44]: Bill Payments
+          - link "Fixed Deposits" [ref=e45] [cursor=pointer]:
+            - /url: /banking/fixed-deposit
+            - img [ref=e46]
+            - generic [ref=e48]: Fixed Deposits
+          - link "Loan Calculator" [ref=e49] [cursor=pointer]:
+            - /url: /banking/loan-calculator
+            - img [ref=e50]
+            - generic [ref=e52]: Loan Calculator
+          - link "Cards" [ref=e53] [cursor=pointer]:
+            - /url: /banking/cards
+            - img [ref=e54]
+            - generic [ref=e56]: Cards
+          - link "Profile & Settings" [ref=e57] [cursor=pointer]:
+            - /url: /banking/profile
+            - img [ref=e58]
+            - generic [ref=e61]: Profile & Settings
+        - button "Logout" [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e66]: Logout
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Welcome, Rahul" [level=1] [ref=e70]
+          - generic [ref=e71]:
+            - link "3" [ref=e72] [cursor=pointer]:
+              - /url: /banking/notifications
+              - img [ref=e73]
+              - generic [ref=e75]: "3"
+            - generic [ref=e76]: Sat, 26 Sept, 2026
+            - generic [ref=e77]: RS
+        - main [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Good Evening, Rahul!" [level=1] [ref=e80]
+            - paragraph [ref=e81]: "Last login: 25 Sept 2026, 11:34 pm"
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Savings Account
+              - paragraph [ref=e85]: XXXX XXXX 7890
+              - paragraph [ref=e86]: ₹2,49,999
+              - link "View Statement" [ref=e87] [cursor=pointer]:
+                - /url: /banking/transactions
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: Total Credits This Month
+              - paragraph [ref=e90]: +₹0
+              - paragraph [ref=e91]: September 2026
+            - generic [ref=e92]:
+              - paragraph [ref=e93]: Total Debits This Month
+              - paragraph [ref=e94]: "-₹0"
+              - paragraph [ref=e95]: September 2026
+          - generic [ref=e96]:
+            - link "→ Fund Transfer" [ref=e97] [cursor=pointer]:
+              - /url: /banking/transfer
+              - generic [ref=e98]: →
+              - paragraph [ref=e99]: Fund Transfer
+            - link "₹ Pay Bills" [ref=e100] [cursor=pointer]:
+              - /url: /banking/bill-payments
+              - generic [ref=e101]: ₹
+              - paragraph [ref=e102]: Pay Bills
+            - link "% Fixed Deposit" [ref=e103] [cursor=pointer]:
+              - /url: /banking/fixed-deposit
+              - generic [ref=e104]: "%"
+              - paragraph [ref=e105]: Fixed Deposit
+            - link "= Loan Calculator" [ref=e106] [cursor=pointer]:
+              - /url: /banking/loan-calculator
+              - generic [ref=e107]: =
+              - paragraph [ref=e108]: Loan Calculator
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - heading "Recent Transactions" [level=2] [ref=e111]
+              - link "View All" [ref=e112] [cursor=pointer]:
+                - /url: /banking/transactions
+            - table [ref=e114]:
+              - rowgroup [ref=e115]:
+                - row "Date Description Ref No Amount Status" [ref=e116]:
+                  - columnheader "Date" [ref=e117]
+                  - columnheader "Description" [ref=e118]
+                  - columnheader "Ref No" [ref=e119]
+                  - columnheader "Amount" [ref=e120]
+                  - columnheader "Status" [ref=e121]
+              - rowgroup [ref=e122]:
+                - row "26-Sep-2026 UPI Payment to qa.receiver@upi - QP001-260926 TXNMUIP86HEXAY -₹1 Success" [ref=e247]:
+                  - cell "26-Sep-2026" [ref=e248]
+                  - cell "UPI Payment to qa.receiver@upi - QP001-260926" [ref=e249]
+                  - cell "TXNMUIP86HEXAY" [ref=e250]
+                  - cell "-₹1" [ref=e251]
+                  - cell "Success" [ref=e252]
+                - row "22-Apr-2026 NEFT to Rajesh Kumar - Rent TXN001 -₹25,000 Success" [ref=e123]:
+                  - cell "22-Apr-2026" [ref=e124]
+                  - cell "NEFT to Rajesh Kumar - Rent" [ref=e125]
+                  - cell "TXN001" [ref=e126]
+                  - cell "-₹25,000" [ref=e127]
+                  - cell "Success" [ref=e128]
+                - row "20-Apr-2026 Salary Credit - GlobalTech Pvt Ltd TXN002 +₹75,000 Success" [ref=e129]:
+                  - cell "20-Apr-2026" [ref=e130]
+                  - cell "Salary Credit - GlobalTech Pvt Ltd" [ref=e131]
+                  - cell "TXN002" [ref=e132]
+                  - cell "+₹75,000" [ref=e133]
+                  - cell "Success" [ref=e134]
+                - row "18-Apr-2026 IMPS to Priya Sharma TXN003 -₹3,500 Success" [ref=e135]:
+                  - cell "18-Apr-2026" [ref=e136]
+                  - cell "IMPS to Priya Sharma" [ref=e137]
+                  - cell "TXN003" [ref=e138]
+                  - cell "-₹3,500" [ref=e139]
+                  - cell "Success" [ref=e140]
+                - row "15-Apr-2026 UPI Credit from Amit Verma TXN004 +₹12,000 Success" [ref=e141]:
+                  - cell "15-Apr-2026" [ref=e142]
+                  - cell "UPI Credit from Amit Verma" [ref=e143]
+                  - cell "TXN004" [ref=e144]
+                  - cell "+₹12,000" [ref=e145]
+                  - cell "Success" [ref=e146]
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - heading "Quick Pay (UPI)" [level=2] [ref=e155]:
+                - img [ref=e156]
+                - text: Quick Pay (UPI)
+              - generic [ref=e253]:
+                - paragraph [ref=e254]: Payment Successful!
+                - paragraph [ref=e255]: "₹1 sent successfully. Ref: TXNMUIP86HEXAY"
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: UPI ID
+                  - textbox "UPI ID" [ref=e161]:
+                    - /placeholder: name@upi
+                - generic [ref=e162]:
+                  - generic [ref=e163]: Amount
+                  - spinbutton "Amount" [ref=e164]
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Note (optional)
+                  - textbox "Note (optional)" [ref=e167]:
+                    - /placeholder: Payment note
+                - button "Pay Now" [active] [ref=e168] [cursor=pointer]
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - paragraph [ref=e171]: "4"
+                - paragraph [ref=e172]: Active FDs
+              - generic [ref=e173]:
+                - paragraph [ref=e174]: "3"
+                - paragraph [ref=e175]: Beneficiaries
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: "0"
+                - paragraph [ref=e178]: Bills Paid This Month
+              - generic [ref=e179]:
+                - paragraph [ref=e180]: "2"
+                - paragraph [ref=e181]: Cards
+  - contentinfo [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - heading "Learn" [level=3] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "45-Day Plan" [ref=e189] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e190]:
+              - link "Java" [ref=e191] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e192]:
+              - link "Selenium" [ref=e193] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e194]:
+              - link "TestNG" [ref=e195] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e196]:
+              - link "API Testing" [ref=e197] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e198]:
+              - link "Playwright" [ref=e199] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e200]:
+              - link "Performance" [ref=e201] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e202]:
+              - link "Database" [ref=e203] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e204]:
+          - heading "Practice" [level=3] [ref=e205]
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "Banking App" [ref=e208] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e209]:
+              - link "Shopping Store" [ref=e210] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e211]:
+              - link "Insurance" [ref=e212] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e213]:
+              - link "Practice Topics" [ref=e214] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e215]:
+              - link "Bug Tracker" [ref=e216] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e217]:
+          - heading "Prepare" [level=3] [ref=e218]
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "Interview Questions" [ref=e221] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e222]:
+              - link "XPath Cheatsheet" [ref=e223] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e224]:
+              - link "Selenium Guide" [ref=e225] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e226]:
+              - link "Playwright Guide" [ref=e227] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e228]:
+              - link "API Testing Guide" [ref=e229] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e230]:
+              - link "Locator Cheatsheet" [ref=e231] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e232]:
+          - heading "Company" [level=3] [ref=e233]
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "About" [ref=e236] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e237]:
+              - link "Contact" [ref=e238] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e239]:
+              - link "Privacy" [ref=e240] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e241]:
+              - link "Terms" [ref=e242] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e243]:
+        - generic [ref=e244]: TesterRank
+        - generic [ref=e245]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e246]

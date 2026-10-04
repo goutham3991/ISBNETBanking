@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e40]:
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337]: ISB
+            - generic [ref=e338]: NetBanking
+          - heading "Welcome to NetBanking" [level=1] [ref=e339]
+          - paragraph [ref=e340]: Manage your finances securely from anywhere, anytime.
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - img [ref=e343]
+              - generic [ref=e345]: 24/7 Account Access
+            - generic [ref=e346]:
+              - img [ref=e347]
+              - generic [ref=e349]: Instant Fund Transfers
+            - generic [ref=e350]:
+              - img [ref=e351]
+              - generic [ref=e353]: Bill Payments & Recharges
+            - generic [ref=e354]:
+              - img [ref=e355]
+              - generic [ref=e357]: Fixed Deposits & Investments
+          - img [ref=e359]
+        - generic [ref=e361]:
+          - img [ref=e362]
+          - generic [ref=e364]: Secured by 256-bit SSL Encryption
+      - generic [ref=e366]:
+        - heading "Sign In to Your Account" [level=2] [ref=e367]
+        - paragraph [ref=e368]: Access your banking dashboard securely
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - generic [ref=e371]: User ID / Email
+            - generic [ref=e372]:
+              - img [ref=e374]
+              - textbox "User ID / Email" [ref=e376]
+          - generic [ref=e377]:
+            - generic [ref=e378]: Password
+            - generic [ref=e379]:
+              - img [ref=e381]
+              - textbox "Password" [ref=e383]:
+                - /placeholder: Enter your password
+              - button [ref=e384] [cursor=pointer]:
+                - img [ref=e385]
+          - generic [ref=e388]:
+            - generic [ref=e389] [cursor=pointer]:
+              - checkbox "Remember User ID" [ref=e390]
+              - text: Remember User ID
+            - link "Forgot Password?" [ref=e391] [cursor=pointer]:
+              - /url: /banking/forgot-password
+          - button "Sign In" [ref=e392]
+        - generic [ref=e395]: or
+        - button "Sign In with OTP" [ref=e397]
+        - paragraph [ref=e401]:
+          - text: New Customer?
+          - link "Register Now" [ref=e402] [cursor=pointer]:
+            - /url: /banking/register
+        - paragraph [ref=e404]:
+          - text: "Demo:"
+          - strong [ref=e405]: rahul@netbank.com
+          - text: /
+          - strong [ref=e406]: Bank@123
+        - paragraph [ref=e407]:
+          - img [ref=e408]
+          - text: Your connection is secure. Never share your credentials.
+  - contentinfo [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - heading "Learn" [level=3] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "45-Day Plan" [ref=e101] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e102]:
+              - link "Java" [ref=e103] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e104]:
+              - link "Selenium" [ref=e105] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e106]:
+              - link "TestNG" [ref=e107] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e108]:
+              - link "API Testing" [ref=e109] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e110]:
+              - link "Playwright" [ref=e111] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e112]:
+              - link "Performance" [ref=e113] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e114]:
+              - link "Database" [ref=e115] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e116]:
+          - heading "Practice" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "Banking App" [ref=e120] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e121]:
+              - link "Shopping Store" [ref=e122] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e123]:
+              - link "Insurance" [ref=e124] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e125]:
+              - link "Practice Topics" [ref=e126] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e127]:
+              - link "Bug Tracker" [ref=e128] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e129]:
+          - heading "Prepare" [level=3] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Interview Questions" [ref=e133] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e134]:
+              - link "XPath Cheatsheet" [ref=e135] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e136]:
+              - link "Selenium Guide" [ref=e137] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e138]:
+              - link "Playwright Guide" [ref=e139] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e140]:
+              - link "API Testing Guide" [ref=e141] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e142]:
+              - link "Locator Cheatsheet" [ref=e143] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e144]:
+          - heading "Company" [level=3] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "About" [ref=e148] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e149]:
+              - link "Contact" [ref=e150] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e151]:
+              - link "Privacy" [ref=e152] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e153]:
+              - link "Terms" [ref=e154] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e155]:
+        - generic [ref=e156]: TesterRank
+        - generic [ref=e157]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e158]: Banking Portal | TesterRank
