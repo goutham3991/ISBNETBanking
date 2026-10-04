@@ -13,7 +13,7 @@ export class AccountPage {
     }
 
     async validateAccountPage(){
-        await this.page.waitForURL('https://www.testerrank.com/banking/dashboard') // Account and Dashboard page are same, so navigating to dashboard page
+        await this.page.waitForURL('**/banking/dashboard') // Account and Dashboard page are same, so navigating to dashboard page
     }
 
     async getAccountBalance() {
@@ -23,14 +23,12 @@ export class AccountPage {
         const balance = Number(
             balanceText.replace(/[₹,]/g, '').trim()
         );
-        console.log(`Account Balance: ${balance}`);
         return balance;
     }
 
     async clickQuickAction(actionName) {
         const actionLocator = this.quickActions.getByText(actionName);
         await actionLocator.click();
-        console.log(`Navigated to ${actionName} page.`);
     }
 
     async verifyUpiQuickPaySection(){

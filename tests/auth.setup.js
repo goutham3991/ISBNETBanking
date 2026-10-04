@@ -1,8 +1,9 @@
 import { test as setup, expect } from '@playwright/test';
 import { LoginPage } from '../pages/loginPage';
-import loginData from '../test-data/login.json';
+import { validUser } from '../test-data/credentials';
 
 const authFile = 'auth/user.json';
+
 
 setup('Authentication TC001 - Initialize authenticated storage state', async ({ page }) => {
 
@@ -13,8 +14,8 @@ setup('Authentication TC001 - Initialize authenticated storage state', async ({ 
     await loginPage.validateLoginPage();
 
     await loginPage.login(
-        loginData.validUser.email,
-        loginData.validUser.password
+        validUser.email,
+        validUser.password
     );
 
     await expect(page).toHaveURL(/dashboard/);

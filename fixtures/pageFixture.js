@@ -1,7 +1,7 @@
-import {test as base} from '@playwright/test';
+import {test as base, expect} from '@playwright/test';
 import { DashboardPage } from '../pages/dashboardPage';
 import { LoginPage } from '../pages/loginPage';
-import { TransfersPage } from '../pages/transfers';
+import { TransfersPage } from '../pages/transfersPage';
 import { NotificationsPage } from '../pages/notificationPage';
 import { AccountPage } from '../pages/accountPage';
 import { PayBillsPage } from '../pages/payBillsPage';
@@ -47,3 +47,5 @@ export const test = base.extend({
         await use(transactionPage)
     }
 });
+
+export { expect };
