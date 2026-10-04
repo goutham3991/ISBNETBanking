@@ -1,0 +1,202 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - complementary [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: ISB
+          - generic [ref=e9]: NetBanking
+        - generic [ref=e11]:
+          - generic [ref=e12]: RS
+          - generic [ref=e13]:
+            - generic [ref=e14]: Rahul Sharma
+            - generic [ref=e15]: "A/C: ****7890"
+        - navigation [ref=e16]:
+          - link "Dashboard" [ref=e17] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e18]
+            - generic [ref=e20]: Dashboard
+          - link "Notifications" [ref=e21] [cursor=pointer]:
+            - /url: /banking/notifications
+            - img [ref=e22]
+            - generic [ref=e24]: Notifications
+          - link "Accounts" [ref=e25] [cursor=pointer]:
+            - /url: /banking/dashboard
+            - img [ref=e26]
+            - generic [ref=e28]: Accounts
+          - link "Fund Transfer" [ref=e29] [cursor=pointer]:
+            - /url: /banking/transfer
+            - img [ref=e30]
+            - generic [ref=e32]: Fund Transfer
+          - link "Transactions" [ref=e33] [cursor=pointer]:
+            - /url: /banking/transactions
+            - img [ref=e34]
+            - generic [ref=e36]: Transactions
+          - link "Beneficiaries" [ref=e37] [cursor=pointer]:
+            - /url: /banking/beneficiary
+            - img [ref=e38]
+            - generic [ref=e40]: Beneficiaries
+          - link "Bill Payments" [ref=e41] [cursor=pointer]:
+            - /url: /banking/bill-payments
+            - img [ref=e42]
+            - generic [ref=e44]: Bill Payments
+          - link "Fixed Deposits" [ref=e45] [cursor=pointer]:
+            - /url: /banking/fixed-deposit
+            - img [ref=e46]
+            - generic [ref=e48]: Fixed Deposits
+          - link "Loan Calculator" [ref=e49] [cursor=pointer]:
+            - /url: /banking/loan-calculator
+            - img [ref=e50]
+            - generic [ref=e52]: Loan Calculator
+          - link "Cards" [ref=e53] [cursor=pointer]:
+            - /url: /banking/cards
+            - img [ref=e54]
+            - generic [ref=e56]: Cards
+          - link "Profile & Settings" [ref=e57] [cursor=pointer]:
+            - /url: /banking/profile
+            - img [ref=e58]
+            - generic [ref=e61]: Profile & Settings
+        - button "Logout" [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e66]: Logout
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Welcome, Rahul" [level=1] [ref=e70]
+          - generic [ref=e71]:
+            - link "3" [ref=e72] [cursor=pointer]:
+              - /url: /banking/notifications
+              - img [ref=e73]
+              - generic [ref=e75]: "3"
+            - generic [ref=e76]: Sun, 27 Sept, 2026
+            - generic [ref=e77]: RS
+        - main [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Fund Transfer" [level=1] [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: "1"
+                - generic [ref=e85]: Select Type
+              - generic [ref=e88]:
+                - generic [ref=e89]: "2"
+                - generic [ref=e90]: Beneficiary
+              - generic [ref=e93]:
+                - generic [ref=e94]: "3"
+                - generic [ref=e95]: Enter Amount
+              - generic [ref=e98]:
+                - generic [ref=e99]: "4"
+                - generic [ref=e100]: Review
+              - generic [ref=e103]:
+                - generic [ref=e104]: "5"
+                - generic [ref=e105]: OTP
+              - generic [ref=e108]:
+                - generic [ref=e109]: "6"
+                - generic [ref=e110]: Receipt
+            - generic [ref=e382]:
+              - heading "Select Transfer Type" [level=2] [ref=e383]
+              - generic [ref=e384]:
+                - button "N NEFT National Electronic Funds Transfer. Settlement in batches, 1-2 hours during banking hours." [active] [ref=e385]:
+                  - generic [ref=e386]:
+                    - generic [ref=e387]: "N"
+                    - img [ref=e403]
+                  - heading "NEFT" [level=3] [ref=e388]
+                  - paragraph [ref=e389]: National Electronic Funds Transfer. Settlement in batches, 1-2 hours during banking hours.
+                - button "I IMPS Immediate Payment Service. Instant 24x7 transfer, max limit of 5,00,000." [ref=e390]:
+                  - generic [ref=e392]: I
+                  - heading "IMPS" [level=3] [ref=e393]
+                  - paragraph [ref=e394]: Immediate Payment Service. Instant 24x7 transfer, max limit of 5,00,000.
+                - button "R RTGS Real Time Gross Settlement. Real-time transfer, minimum amount 2,00,000." [ref=e395]:
+                  - generic [ref=e397]: R
+                  - heading "RTGS" [level=3] [ref=e398]
+                  - paragraph [ref=e399]: Real Time Gross Settlement. Real-time transfer, minimum amount 2,00,000.
+              - button "Continue" [ref=e401]
+  - contentinfo [ref=e131]:
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - heading "Learn" [level=3] [ref=e135]
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "45-Day Plan" [ref=e138] [cursor=pointer]:
+                - /url: /study-plan
+            - listitem [ref=e139]:
+              - link "Java" [ref=e140] [cursor=pointer]:
+                - /url: /paths/java
+            - listitem [ref=e141]:
+              - link "Selenium" [ref=e142] [cursor=pointer]:
+                - /url: /paths/selenium
+            - listitem [ref=e143]:
+              - link "TestNG" [ref=e144] [cursor=pointer]:
+                - /url: /paths/testng
+            - listitem [ref=e145]:
+              - link "API Testing" [ref=e146] [cursor=pointer]:
+                - /url: /paths/api-testing
+            - listitem [ref=e147]:
+              - link "Playwright" [ref=e148] [cursor=pointer]:
+                - /url: /paths/playwright
+            - listitem [ref=e149]:
+              - link "Performance" [ref=e150] [cursor=pointer]:
+                - /url: /paths/performance
+            - listitem [ref=e151]:
+              - link "Database" [ref=e152] [cursor=pointer]:
+                - /url: /paths/database
+        - generic [ref=e153]:
+          - heading "Practice" [level=3] [ref=e154]
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Banking App" [ref=e157] [cursor=pointer]:
+                - /url: /banking
+            - listitem [ref=e158]:
+              - link "Shopping Store" [ref=e159] [cursor=pointer]:
+                - /url: /shopping
+            - listitem [ref=e160]:
+              - link "Insurance" [ref=e161] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e162]:
+              - link "Practice Topics" [ref=e163] [cursor=pointer]:
+                - /url: /topics/forms
+            - listitem [ref=e164]:
+              - link "Bug Tracker" [ref=e165] [cursor=pointer]:
+                - /url: /defect-tracker
+        - generic [ref=e166]:
+          - heading "Prepare" [level=3] [ref=e167]
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - link "Interview Questions" [ref=e170] [cursor=pointer]:
+                - /url: /interview-questions
+            - listitem [ref=e171]:
+              - link "XPath Cheatsheet" [ref=e172] [cursor=pointer]:
+                - /url: /xpath-cheatsheet
+            - listitem [ref=e173]:
+              - link "Selenium Guide" [ref=e174] [cursor=pointer]:
+                - /url: /selenium-tutorial
+            - listitem [ref=e175]:
+              - link "Playwright Guide" [ref=e176] [cursor=pointer]:
+                - /url: /playwright-tutorial
+            - listitem [ref=e177]:
+              - link "API Testing Guide" [ref=e178] [cursor=pointer]:
+                - /url: /api-testing-guide
+            - listitem [ref=e179]:
+              - link "Locator Cheatsheet" [ref=e180] [cursor=pointer]:
+                - /url: /cheatsheet/locators
+        - generic [ref=e181]:
+          - heading "Company" [level=3] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "About" [ref=e185] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e186]:
+              - link "Contact" [ref=e187] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e188]:
+              - link "Privacy" [ref=e189] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e190]:
+              - link "Terms" [ref=e191] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=e192]:
+        - generic [ref=e193]: TesterRank
+        - generic [ref=e194]: © 2026 TesterRank. Free QA learning platform.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e195]

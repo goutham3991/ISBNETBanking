@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Playwright generated reports/results
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Playwright authentication state
+/playwright/.auth/
+/auth/*.json
+
+# Allure
+/allure-results/
+/allure-report/
+/allure-report 2/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/

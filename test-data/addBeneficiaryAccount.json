@@ -1,0 +1,16 @@
+{
+    "accountDetails": {
+        "accountHolderName": "Goutham",
+        "accountNumber": "123456789",
+        "ifscCode": "SBIN0001234",
+        "nickname": "MGK"
+    },
+
+    "transactionDetails": {
+        "NEFTtransactionType": "NEFT",
+        "IMPStransactionType": "IMPS",
+        "RTGStransactionType": "RTGS",
+        "amount": 1000,
+        "remarks": "Test NEFT Transfer"
+    }
+}

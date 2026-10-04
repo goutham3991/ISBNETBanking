@@ -1,0 +1,25 @@
+{
+  "name": "isbnetbanking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:fresh": "rm -rf allure-results allure-report && playwright test",
+    "smoke": "playwright test --grep @smoke",
+    "regression": "playwright test --grep @regression",
+    "negative": "playwright test --grep @negative",
+    "allure:generate": "allure generate allure-results -o allure-report",
+    "allure:open": "allure open allure-report",
+    "report": "npm run allure:generate && npm run allure:open",
+    "HTML report": "playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.4.0",
+    "allure": "^3.16.0",
+    "allure-playwright": "^3.11.0"
+  }
+}
