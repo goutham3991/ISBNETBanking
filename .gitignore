@@ -11,11 +11,6 @@ node_modules/
 /playwright/.auth/
 /auth/*.json
 
-# Allure
-/allure-results/
-/allure-report/
-/allure-report 2/
-
 # Environment / secrets
 .env
 .env.*

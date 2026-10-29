@@ -19,7 +19,6 @@ The framework is designed with maintainability, reusability, parallel execution,
 - Automatic retries
 - Smoke, regression and negative test suites
 - HTML reporting
-- Allure reporting
 - Trace collection on retry
 - AI-generated test scenarios
 - GitHub Actions CI/CD integration
@@ -37,7 +36,6 @@ The framework is designed with maintainability, reusability, parallel execution,
 | Git | Version Control |
 | GitHub | Source Code Management |
 | GitHub Actions | CI/CD |
-| Allure | Test Reporting |
 | HTML Report | Playwright Test Reporting |
 | Playwright MCP | AI-assisted browser automation |
 
@@ -308,32 +306,6 @@ playwright-report/
 
 ---
 
-## Allure Report
-
-Generate the Allure report:
-
-```bash
-npm run allure:generate
-```
-
-Open the report:
-
-```bash
-npm run allure:open
-```
-
-Or generate and open it together:
-
-```bash
-npm run report
-```
-
-Allure results are generated under:
-
-```text
-allure-results/
-```
-
 ---
 
 # ⚙️ Playwright Configuration
@@ -347,7 +319,6 @@ The framework is configured with:
 - Automatic retries
 - CI-specific worker configuration
 - HTML reporting
-- Allure reporting
 - Trace collection on first retry
 - Storage state authentication
 
@@ -500,10 +471,7 @@ Sensitive configuration should be maintained using environment variables or GitH
 | `npm run smoke` | Execute smoke tests |
 | `npm run regression` | Execute regression tests |
 | `npm run negative` | Execute negative tests |
-| `npm run test:fresh` | Clean Allure results and execute tests |
-| `npm run allure:generate` | Generate Allure report |
-| `npm run allure:open` | Open Allure report |
-| `npm run report` | Generate and open Allure report |
+| `npm run test:fresh` | Clean Playwright reports/results and execute tests |
 | `npx playwright show-report` | Open Playwright HTML report |
 
 ---
@@ -518,7 +486,6 @@ Planned improvements include:
 - Smoke and regression pipeline separation
 - Parallel execution optimization
 - Test sharding
-- Improved Allure reporting
 - Automated failure notifications
 - AI-powered test generation
 - AI-assisted failure analysis
