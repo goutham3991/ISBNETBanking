@@ -1,0 +1,229 @@
+[
+ {
+  "time": 1793289863380,
+  "duration": 293941.867,
+  "passed": 52,
+  "failed": 0,
+  "flaky": 1,
+  "skipped": 1,
+  "total": 54,
+  "tests": {
+   "setup::tests/auth.setup.js::Authentication TC001 - Initialize authenticated storage state": [
+    "p",
+    8700
+   ],
+   "chromium::tests/accounts/accountBalance.spec.js::Accounts - Dashboard navigation › Accounts TC001 - Check opening balance": [
+    "p",
+    26189
+   ],
+   "chromium::tests/accounts/accountBalance.spec.js::Accounts - Dashboard navigation › Accounts TC002 - Navigate to Fund Transfer from quick actions": [
+    "p",
+    27532
+   ],
+   "chromium::tests/accounts/accountBalance.spec.js::Accounts - Dashboard navigation › Accounts TC003 - Navigate to Pay Bills from quick actions": [
+    "p",
+    30610
+   ],
+   "chromium::tests/accounts/accountBalance.spec.js::Accounts - Dashboard navigation › Accounts TC004 - Navigate to Fixed Deposit from quick actions": [
+    "p",
+    27141
+   ],
+   "chromium::tests/accounts/accountBalance.spec.js::Accounts - Dashboard navigation › Accounts TC005 - Navigate to Loan Calculator from quick actions": [
+    "k",
+    20118
+   ],
+   "chromium::tests/accounts/upiPayment.spec.js::Quick Pay - UPI payments and history › Quick Pay TC001 - Complete UPI payment with a note": [
+    "p",
+    31317
+   ],
+   "chromium::tests/accounts/upiPayment.spec.js::Quick Pay - UPI payments and history › Quick Pay TC002 - Reconcile UPI payment in transaction history": [
+    "p",
+    29837
+   ],
+   "chromium::tests/bill payments/electricityPayment.spec.js::Bill Payments - Electricity payment › Bill Payments TC001 - Pay electricity bill": [
+    "p",
+    23703
+   ],
+   "chromium::tests/bill payments/gasPayment.spec.js::Bill Payments - Gas payment › Bill Payments TC002 - Pay gas bill": [
+    "p",
+    10836
+   ],
+   "chromium::tests/bill payments/insurancePayment.spec.js::Bill Payments - Insurance payment › Bill Payments TC003 - Pay insurance bill": [
+    "p",
+    10654
+   ],
+   "chromium::tests/bill payments/internetBroadband.spec.js::Bill Payments - Internet and broadband payment › Bill Payments TC004 - Pay Internet or Broadband bill": [
+    "p",
+    12927
+   ],
+   "chromium::tests/bill payments/mobileTelecomPayment.spec.js::Bill Payments - Mobile and telecom payment › Bill Payments TC005 - Pay Mobile or Telecom bill": [
+    "p",
+    11683
+   ],
+   "chromium::tests/bill payments/waterPayment.spec.js::Bill Payments - Water payment › Bill Payments TC006 - Pay water bill": [
+    "p",
+    10889
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC001 - Load FD overview and summary": [
+    "p",
+    9651
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC002 - Reconcile displayed FD card details with summary": [
+    "p",
+    13169
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC003 - Open a minimum-principal FD for every available tenure": [
+    "p",
+    25466
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC004 - Enable opening for principal just above the minimum": [
+    "p",
+    17658
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC005 - Probe oversized principal without submitting": [
+    "p",
+    16048
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC006 - Switch between tenure options without changing principal": [
+    "p",
+    27401
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC007 - Keep elapsed progress within 0 to 100 percent": [
+    "p",
+    19640
+   ],
+   "chromium::tests/fixed deposit/fixedDeposit.spec.js::Fixed Deposit - P0 and P2 scenarios › Fixed Deposit TC008 - Prevent duplicate FD creation on a rapid repeated submit": [
+    "p",
+    20834
+   ],
+   "chromium::tests/fund transfer/addDeleteBeneficiary.spec.js::Beneficiary - Fund transfer beneficiary management › Beneficiary TC001 - Add and delete NEFT beneficiary": [
+    "p",
+    26089
+   ],
+   "chromium::tests/fund transfer/addDeleteBeneficiary.spec.js::Beneficiary - Fund transfer beneficiary management › Beneficiary TC002 - Add and delete IMPS beneficiary": [
+    "p",
+    24943
+   ],
+   "chromium::tests/fund transfer/addDeleteBeneficiary.spec.js::Beneficiary - Fund transfer beneficiary management › Beneficiary TC003 - Add and delete RTGS beneficiary": [
+    "p",
+    25151
+   ],
+   "chromium::tests/fund transfer/fundTransfer.spec.js::Fund Transfer - Transfer workflows › Fund Transfer TC001 - Complete IMPS transfer": [
+    "p",
+    36385
+   ],
+   "chromium::tests/fund transfer/fundTransfer.spec.js::Fund Transfer - Transfer workflows › Fund Transfer TC002 - Complete NEFT transfer": [
+    "p",
+    33224
+   ],
+   "chromium::tests/loan calculator/loanCalculator.spec.js::Loan Calculator - EMI calculations › Loan Calculator TC001 - Verify EMI calculator bounds, recalculation, units, and amortization": [
+    "p",
+    27679
+   ],
+   "chromium::tests/login/login-data-combinations/TC001-login.spec.js::Login - Credential data combinations › Login TC002 - Verify success credential combination": [
+    "p",
+    16813
+   ],
+   "chromium::tests/login/login-data-combinations/TC001-login.spec.js::Login - Credential data combinations › Login TC003 - Verify failure credential combination": [
+    "p",
+    15604
+   ],
+   "chromium::tests/login/login-data-combinations/TC001-login.spec.js::Login - Credential data combinations › Login TC004 - Verify failure credential combination": [
+    "p",
+    18515
+   ],
+   "chromium::tests/login/login-data-combinations/TC001-login.spec.js::Login - Credential data combinations › Login TC005 - Verify failure credential combination": [
+    "p",
+    20969
+   ],
+   "chromium::tests/login/login.spec.js::Login - Authentication › Login TC001 - Sign in with valid credentials": [
+    "p",
+    24048
+   ],
+   "chromium::tests/notifications/notifications.spec.js::Notifications - Notification categories › Notifications TC001 - View All tab": [
+    "p",
+    15364
+   ],
+   "chromium::tests/notifications/notifications.spec.js::Notifications - Notification categories › Notifications TC002 - View Transactions tab": [
+    "p",
+    15234
+   ],
+   "chromium::tests/notifications/notifications.spec.js::Notifications - Notification categories › Notifications TC003 - View Security tab": [
+    "p",
+    13558
+   ],
+   "chromium::tests/notifications/notifications.spec.js::Notifications - Notification categories › Notifications TC004 - View Offers tab": [
+    "p",
+    13512
+   ],
+   "chromium::tests/notifications/notifications.spec.js::Notifications - Notification categories › Notifications TC005 - View Reminders tab": [
+    "p",
+    16032
+   ],
+   "chromium::tests/seed.spec.ts::Test Seed - Seed setup › Test Seed TC001 - Initialize seed fixture": [
+    "p",
+    2257
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC001 - Filter transactions by description": [
+    "p",
+    17230
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC002 - Display default statement and all expected columns": [
+    "p",
+    16104
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC003 - Filter debit transactions": [
+    "p",
+    16239
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC004 - Filter credit transactions": [
+    "p",
+    17228
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC005 - Filter successful transactions by status": [
+    "p",
+    19372
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC006 - Combine debit and success filters": [
+    "p",
+    18846
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC007 - Include transactions on an inclusive same-day range": [
+    "p",
+    18035
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC008 - Search by exact transaction reference": [
+    "p",
+    17848
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC009 - Search description case-insensitively by substring": [
+    "p",
+    18540
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC010 - Show empty state when search has no matches": [
+    "p",
+    17745
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC011 - Keep results staged until Apply Filters is clicked": [
+    "p",
+    17398
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC012 - Clear filters and restore seeded rows": [
+    "p",
+    13000
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC013 - Preserve historical balances when filtering debit rows": [
+    "s",
+    0
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC014 - Keep result summary consistent with filtered and empty rows": [
+    "p",
+    9147
+   ],
+   "chromium::tests/transactions/transactions.spec.js::Transactions - Account statement filtering and display › Transactions TC015 - Validate debit and credit signs and unique references": [
+    "p",
+    9926
+   ]
+  }
+ }
+]

@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+const reportingLabs = require('./reporting-labs.config');
 export default defineConfig({
   testDir: './tests',
   timeout: 30_000,
@@ -11,6 +12,7 @@ export default defineConfig({
   workers: process.env.CI ? 2 : 4,
   reporter: [
     ['line'],
+    ['reporting-labs', reportingLabs],
     ['html', {
       outputFolder: 'playwright-report',
       open: 'never'
